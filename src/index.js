@@ -5,7 +5,7 @@ const myFileWriter = async (fileName, fileContent) => {
 	// dont chnage function name
 	 fs.writeFile(fileName,  fileContent,function (err) {
 		if (err) return callback(err);
-		console.log("file created successfully!")
+		console.log("file created successfully  done!")
 	});
 	console.log("okjhh")
 }
